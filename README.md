@@ -49,9 +49,9 @@ rsync \
 
 Where the _{{}}_ parameters are as follows:
 
-**local-path**: Local output directory of Codox generated documentation.
-**group, name, version**: Project group/name/version (Maven artifactId,groupId,version) used fo output directory structure.
-**remote-user, remote-host, remote-path**: To be configured by user of plugin
+- **local-path**: Local output directory of Codox generated documentation.
+- **group, name, version**: Project group/name/version (Maven artifactId,groupId,version) used fo output directory structure.
+- **remote-user, remote-host, remote-path**: To be configured by user of plugin
 
 The reason I've created this as a lein plugin instead of writing a
 script is because lein conveniently provides access to the

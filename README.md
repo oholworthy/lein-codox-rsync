@@ -38,7 +38,7 @@ lein codox-rsync
 
 The rsync command run is the following:
 
-```sh
+```
 rsync \
     -a `# archive mode` \
     -v `# increase verbosity` \
